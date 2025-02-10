@@ -38,7 +38,7 @@ check_dependencies() {
     if [ ${#missing_deps[@]} -ne 0 ]; then
         echo -e "${RED}❌ Missing required dependencies: ${missing_deps[*]}${NC}"
         echo -e "${YELLOW}Please check installation instructions at:"
-        echo -e "https://github.com/yourusername/sentinel#installation${NC}"
+        echo -e "https://github.com/TheOneOh1/Sentinel/blob/main/README.md${NC}"
         exit 1
     fi
     
